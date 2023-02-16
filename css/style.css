@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Tenor+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tenor Sans", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+
+#header {
+  padding: 20px 0;
+}
+#header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .navbar h1 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #000000;
+  text-transform: uppercase;
+}
+#header .navbar--nav a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  padding-left: 40px;
+}
+
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: start;
+}
+#hero .hero--img img {
+  width: 650px;
+  height: 474px;
+}
+#hero .hero--title {
+  align-items: start;
+}
+#hero .hero--title h3 {
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999999;
+  padding: 20px 0;
+}
+#hero .hero--title h1 {
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 429px;
+}
+#hero .hero--title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  width: 419px;
+  padding: 27px 0;
+}
+#hero .hero--title h2 {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#block {
+  padding: 40px 0;
+}
+#block .block--one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+#block .block--one__group img {
+  width: 367px;
+  height: 254px;
+}
+#block .block--one__group h2 {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  padding: 18px;
+}
+#block .block--one__group h1 {
+  width: 383px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 15px;
+}
+#block .block--one__group h3 {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#images {
+  padding: 40px;
+}
+#images .images h2 {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  padding-bottom: 30px;
+}
+#images .images--one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+#images .images--one__block img {
+  width: 270px;
+  height: 187px;
+}
+#images .images--one__block h2 {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  padding: 18px 0;
+}
+#images .images--one__block h1 {
+  width: 276px;
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 15px;
+}
+#images .images--one__block h3 {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+#images .images--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#images .images--btn button {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 205px;
+  height: 54px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  margin-bottom: 90px;
+}
+#images .images--line {
+  width: 100%;
+  height: 1px;
+  background: #E6E6E6;
+  border-radius: 0px;
+}
+
+#post .post h2 {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  padding-bottom: 30px;
+}
+#post .post--one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+#post .post--one__group img {
+  width: 560px;
+  height: 387px;
+}
+#post .post--one__group h2 {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  padding: 25px 0;
+}
+#post .post--one__group h1 {
+  font-weight: 400;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 15px;
+}
+#post .post--one__group h3 {
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#footer {
+  padding: 40px 0;
+  background: #141414;
+}
+#footer .footer--title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+#footer .footer--title h1 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+#footer .footer--title p {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  padding-left: 15px;
+}
+#footer .footer--line {
+  width: 100%;
+  height: 1px;
+  background: #4D4D4D;
+  border-radius: 0px;
+  margin-bottom: 60px;
+}
+#footer .footer--tuu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+#footer .footer--tuu h2 {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+}
+#footer .footer--group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer--group__one--text {
+  display: flex;
+  align-items: start;
+}
+#footer .footer--group__one--text h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-right: 105px;
+  margin-bottom: 15px;
+}
+#footer .footer--group__input input {
+  width: 221px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 0px;
+  outline: none;
+}
+#footer .footer--group__input button {
+  width: 79px;
+  height: 48px;
+  background: #000000;
+  border-radius: 0px;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#footer .footer--one {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--one h2 {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  padding-right: 139px;
+  margin-top: 70px;
+}
+#footer .footer--text {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--text h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-right: 149px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
